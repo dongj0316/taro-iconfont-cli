@@ -1,3 +1,6 @@
+# 3.2.2
+[fix] designWidth可能为function，兼容下
+
 # 3.2.1
 [fix] ts项目导出IconNames可能报错的问题 #50
 

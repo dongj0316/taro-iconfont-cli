@@ -3,7 +3,6 @@
 
 import React, { FunctionComponent } from 'react';
 
-
 export type IconNames = 'alipay' | 'user' | 'setup';
 
 interface Props {
@@ -12,6 +11,9 @@ interface Props {
   color?: string | string[];
   style?: React.CSSProperties;
 }
+const pxTransform = function (size) {
+  return parseInt(size, 10) + 'rpx';
+};
 
 const IconFont: FunctionComponent<Props> = (props) => {
   const { name, size, color, style } = props;

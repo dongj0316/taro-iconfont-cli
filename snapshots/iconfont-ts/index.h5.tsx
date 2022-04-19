@@ -2,7 +2,6 @@
 /* eslint-disable */
 
 import React, { FunctionComponent } from 'react';
-
 import Icon from './h5';
 
 export type IconNames = 'alipay' | 'user' | 'setup';
@@ -14,6 +13,9 @@ interface Props {
   style?: React.CSSProperties;
 }
 
+const pxTransform = function (size, designWidth = 750) {
+  return Math.ceil((((parseInt(size, 10) / 40) * 640) / designWidth) * 10000) / 10000 + 'rem';
+};
 const IconFont: FunctionComponent<Props> = (props) => {
   const { name, size, color, style } = props;
 
