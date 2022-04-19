@@ -1,4 +1,4 @@
-# 3.2.2
+# 3.3.1
 [fix] designWidth可能为function，兼容下
 
 # 3.2.1
@@ -33,9 +33,9 @@
 [chore] 升级包 react-native-iconfont-cli 和 react-iconfont-cli
 
 # 1.2.0
-[feat] npx iconfont-init 增加 `--output` 选项，可传入配置输出路径，默认为 iconfont.json
+[feat] npx iconfont-init-fix-dw 增加 `--output` 选项，可传入配置输出路径，默认为 iconfont.json
 <br>
-[feat] npx iconfont-taro 增加 `--config` 选项，可传入配置文件路径，默认为 iconfont.json
+[feat] npx iconfont-taro-fix-dw 增加 `--config` 选项，可传入配置文件路径，默认为 iconfont.json
 
 # 1.1.2
 [chore] 升级包 react-native-iconfont-cli

@@ -1,14 +1,14 @@
 {
-  "name": "taro-iconfont-cli-d750",
-  "version": "3.3.0",
+  "name": "taro-iconfont-cli-fix-dw",
+  "version": "3.3.1",
   "main": "index.js",
   "repository": "git@github.com:dongj0316/taro-iconfont-cli.git",
   "author": "范文华 <531362022@qq.com>",
   "license": "MIT",
   "bin": {
     "iconfont": "./commands/help.js",
-    "iconfont-init": "./commands/createJson.js",
-    "iconfont-taro": "./commands/index.js"
+    "iconfont-init-fix-dw": "./commands/createJson.js",
+    "iconfont-taro-fix-dw": "./commands/index.js"
   },
   "peerDependencies": {
     "@tarojs/taro": "^3.0.8"
